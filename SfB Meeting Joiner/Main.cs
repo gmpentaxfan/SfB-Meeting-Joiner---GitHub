@@ -1353,7 +1353,7 @@ namespace SfB_Meeting_Joiner
 
     ((InstantMessageModality)_conversation.Modalities[ModalityTypes.InstantMessage]).
         BeginSendMessage(
-        "How to Document https://connect.DomainName.ca/Resources/Information%20Technology/How%20to%20use%20Learning%20Room%20Systems.docx" + System.Environment.NewLine,
+        "How to Document - Create Link Here" + System.Environment.NewLine,
         (ar) =>
         {
             try
@@ -1365,7 +1365,7 @@ namespace SfB_Meeting_Joiner
         , null);
             ((InstantMessageModality)_conversation.Modalities[ModalityTypes.InstantMessage]).
             BeginSendMessage(
-            "How to Powerpoint https://connect.DomainName.ca/Resources/Information%20Technology/Learning%20Room%20Systems%20Help.pptx" + System.Environment.NewLine,
+            "How to Powerpoint - Create Link Here" + System.Environment.NewLine,
             (ar) =>
             {
                 try
